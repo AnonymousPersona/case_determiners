@@ -12,8 +12,10 @@ This repository contains all data, models, and scripts required to reproduce the
 
 1. Clone the repository and enter it:
 
+```
 git clone https://github.com/AnonymousPersona/case_determiners
 cd case_determiners
+```
 
 2.	Ensure CmdStan is installed (one-time setup):
 
