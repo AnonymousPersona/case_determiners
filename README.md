@@ -19,8 +19,12 @@ cd case_determiners
 
 2.	Ensure CmdStan is installed (one-time setup):
 
+```
 cmdstanr::install_cmdstan(cores = parallel::detectCores())
+```
 
 3.	Run the full analysis pipeline:
 
+```
 Rscript run_all.R
+```
