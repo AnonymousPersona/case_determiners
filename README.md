@@ -11,19 +11,14 @@ This repository contains all data, models, and scripts required to reproduce the
 ### Reproducing the analyses
 
 1. Clone the repository and enter it:
-   ```bash
-   git clone https://github.com/AnonymousPersona/case_determiners
-   cd case_determiners
-   ```
 
-2.	(Optional but recommended) Restore the exact R package environment:   
+git clone https://github.com/AnonymousPersona/case_determiners
+cd case_determiners
 
-renv::restore()
-
-3.	Ensure CmdStan is installed (one-time setup):
+2.	Ensure CmdStan is installed (one-time setup):
 
 cmdstanr::install_cmdstan(cores = parallel::detectCores())
 
-4.	Run the full analysis pipeline:
+3.	Run the full analysis pipeline:
 
 Rscript run_all.R
